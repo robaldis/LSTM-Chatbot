@@ -33,7 +33,7 @@ def refactoring_data():
 
 
 # refactoring_data()
-path_to_file='human-robot.txt'
+path_to_file='assets/human-robot.txt'
 
 # Download the file
 path_to_zip = tf.keras.utils.get_file(
