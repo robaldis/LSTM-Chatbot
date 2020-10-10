@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# tensorflow model checkpoint
+training_checkpoints
