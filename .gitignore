@@ -130,7 +130,7 @@ dmypy.json
 
 
 # tensorflow model checkpoint
-training_checkpoints
+training_checkpoints/
 
 # ignore vscode
 .vscode/
