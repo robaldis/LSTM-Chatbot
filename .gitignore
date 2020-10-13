@@ -133,4 +133,5 @@ dmypy.json
 training_checkpoints/
 
 # ignore vscode
-.vscode/*
+.vscode/launch.json
+.vscode/settings.json
