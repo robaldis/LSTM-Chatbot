@@ -1,4 +1,7 @@
 {
-    "python.dataScience.jupyterServerURI": "http://localhost:8888/?token=46078b27b92e42f67433fcccfabb3d6878bf6838f8835a9b",
+    "python.dataScience.jupyterServerURI": "http://localhost:8888/?token=eefb1dbfd480a451571fe44454ebd3fc02ed5873edd0ab30",
     "python.pythonPath": "/home/robert/anaconda3/envs/lstm_chatbot/bin/python"
 }
+
+
+
