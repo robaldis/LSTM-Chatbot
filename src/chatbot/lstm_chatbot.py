@@ -11,14 +11,16 @@ from sklearn.model_selection import train_test_split
 
 
 
-path_to_file='assets/human-robot.txt'
 
 # Download the file
 path_to_zip = tf.keras.utils.get_file(
     'spa-eng.zip', origin='http://storage.googleapis.com/download.tensorflow.org/data/spa-eng.zip',
     extract=True)
 
-# path_to_file = os.path.dirname(path_to_zip)+"/spa-eng/spa.txt"
+path_to_file = os.path.dirname(path_to_zip)+"/spa-eng/spa.txt"
+path_to_file='assets/human-robot.txt'
+
+
 
 input_tensor, target_tensor, input_token, target_token = data_setup.load_dataset(path_to_file, 2000)
 

@@ -42,7 +42,7 @@ def tokenize (lang):
     return tensor, lang_tokenizer
 
 
-def load_dataset(path, num_examples=None):
+def load_dataset(path, num_examples):
     targ, inp = create_dataset(path, num_examples)
 
     input_tensor, inp_tokenizer = tokenize(inp)
