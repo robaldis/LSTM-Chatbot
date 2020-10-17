@@ -12,6 +12,9 @@ import io
 import time
 
 
+gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333)
+sess = tf.Session(config= tf.ConfigProto(gpu_options=gpu_options))
+
 class Encoder(tf.keras.Model):
   def __init__(self, vocab_size, embedding_dim, enc_units, batch_sz):
     super(Encoder, self).__init__()
