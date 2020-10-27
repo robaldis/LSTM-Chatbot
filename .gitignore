@@ -142,3 +142,7 @@ training_checkpoints/
 
 # Local History for Visual Studio Code
 .history/
+
+
+save/
+checkpoint.tar
