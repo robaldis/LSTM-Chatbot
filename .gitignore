@@ -146,3 +146,6 @@ training_checkpoints/
 
 save/
 checkpoint.tar
+
+# Asset files
+/assets
